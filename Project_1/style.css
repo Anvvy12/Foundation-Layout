@@ -134,11 +134,8 @@
   width: 100%;
 }
 .headline__img {
-  margin-left: auto;
-  position: relative;
-  height: 448px;
-  width: 796px;
-  right: -110px;
+  margin-bottom: 36px;
+  width: 100%;
 }
 .headline__description {
   margin-top: 24px;
@@ -264,6 +261,7 @@
   .headline__content {
     position: absolute;
     z-index: 1;
+    margin: 0;
   }
   .headline__title {
     width: 754px;
