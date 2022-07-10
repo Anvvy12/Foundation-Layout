@@ -3,6 +3,11 @@
 @import "logo.scss";
 @import "headline.scss";
 @import "button.scss";
+@import "media.scss";
+
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-family: "Work Sans";
@@ -13,42 +18,12 @@ a {
 }
 
 .page {
-  width: 1400px;
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .top-section {
   background-color: #f3c6bd;
-  padding-top: 39px;
-}
-
-.navigation {
-  margin-left: auto;
-  margin-top: 7px;
-  margin-right: 75px;
-
-  &__item {
-    font-size: 18px;
-    line-height: 25px;
-    color: #2b292d;
-    margin-left: 50px;
-  }
-
-  &__item_selected {
-    font-weight: 700;
-    color: #000;
-  }
-
-  &__arrow {
-    background-image: url(img/Arrow.png);
-    display: inline-block;
-    width: 8px;
-    height: 5px;
-    margin-left: 11px;
-  }
 }
 
 .userful-link {
@@ -78,45 +53,4 @@ a {
 
 .about-company {
   margin-top: 43px;
-}
-
-.additionla-navigation {
-  display: flex;
-  margin-top: 60px;
-  margin-left: auto;
-  &__column {
-    margin-right: 29px;
-  }
-}
-
-.nav-links {
-  width: 265px;
-  &__title {
-    color: #2b292d;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
-    margin: 0;
-  }
-  &__list {
-    margin-top: 18px;
-    list-style-type: none;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0;
-    &__item {
-      color: #2b292d;
-      opacity: 60%;
-    }
-  }
-}
-
-.headline__content {
-  position: absolute;
-  z-index: 1;
-}
-
-.top-section {
-  height: 710px;
 }

@@ -1,6 +1,60 @@
 .header {
-  margin: auto;
-  display: flex;
-  width: 1140px;
   height: 64px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  &__menu-button {
+    padding: 0;
+    height: 100%;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    width: 58px;
+    border-left: 1px solid #00000026;
+  }
+
+  &__menu-icon {
+    width: 18px;
+    height: 13px;
+    background-image: url("./img/Menu-Bar.png");
+    display: inline-block;
+  }
+}
+
+.navigation {
+  display: none;
+}
+
+.additionla-navigation {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+  &__column {
+    margin-right: 29px;
+  }
+}
+
+.nav-links {
+  width: 265px;
+  &__title {
+    color: #2b292d;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+  }
+  &__list {
+    margin-top: 18px;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    &__item {
+      color: #2b292d;
+      opacity: 60%;
+    }
+  }
 }
