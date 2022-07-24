@@ -467,6 +467,9 @@
 
 .order-inputs {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .order-inputs__input {
   padding: 0;
@@ -482,6 +485,8 @@
   border-radius: 2px;
 }
 .order-inputs__btn {
+  height: 48px;
+  width: 290px;
   margin-top: 12px;
   padding: 0;
 }
@@ -531,6 +536,7 @@
   }
   .order-inputs {
     margin-top: 26px;
+    flex-direction: row;
   }
   .order-inputs__btn {
     height: 48px;
