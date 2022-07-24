@@ -1,0 +1,135 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-img-div {
+  margin-top: 50px;
+  &__image {
+    height: 220px;
+    width: 200px;
+  }
+}
+
+.order-text {
+  width: 290px;
+  &__header {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #2b292d;
+  }
+  &__paragraph {
+    height: 167px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2b292d;
+  }
+}
+
+.order-inputs {
+  margin-top: 40px;
+  &__input {
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    color: #000;
+    width: 290px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+  }
+  &__btn {
+    margin-top: 12px;
+    padding: 0;
+  }
+}
+
+.order-under {
+  margin-top: 10px;
+  width: 290px;
+  height: 44px;
+  &__text {
+    color: rgba(43, 41, 45, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &__text-like-url {
+    color: #3142c6;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .order {
+    margin: 106px 229px 105px 122px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .order-text {
+    width: 555px;
+    &__header {
+      height: 48px;
+      margin-top: 40px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.25px;
+      text-align: left;
+      color: #2b292d;
+    }
+    &__paragraph {
+      height: 64px;
+      margin-top: 12px;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      color: #2b292d;
+    }
+  }
+
+  .order-inputs {
+    margin-top: 26px;
+    &__btn {
+      height: 48px;
+      width: 160px;
+      margin: 0;
+      margin-left: 10px;
+    }
+  }
+
+  .order-img-div {
+    margin: 0 121px 0 0;
+    &__image {
+      height: 296px;
+      width: 269px;
+    }
+  }
+  .order-inputs {
+    display: flex;
+    align-items: center;
+    &__input {
+      width: 385px;
+    }
+  }
+  .order-under {
+    width: 495px;
+    margin-top: 10px;
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}
