@@ -4,6 +4,7 @@
 @import "headline.scss";
 @import "button.scss";
 @import "media.scss";
+@import "audience.scss";
 
 * {
   box-sizing: border-box;
@@ -15,6 +16,11 @@ html {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .page {

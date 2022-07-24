@@ -306,6 +306,126 @@
     height: 50px;
   }
 }
+.audiensec {
+  background: rgba(0, 161, 198, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audiensec-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.audiensec-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.audiensec-text__paragraph {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  color: #2b292d;
+}
+.audiensec-text__header {
+  margin: 0;
+  margin-top: 17px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+  color: #2b292d;
+}
+.audiensec-text__description {
+  margin: 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2b292d;
+}
+
+.audiensec-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.audiensec-tools__item-img + .audiensec-tools__item-img {
+  margin-top: 15px;
+}
+.audiensec-tools__item-img {
+  width: 290px;
+  height: 300px;
+}
+
+.audiensec-btn {
+  margin: 0;
+  width: 290px;
+  height: 48px;
+}
+
+.text-btn-black {
+  color: #000;
+}
+
+.audiensec-btn + .audiensec-btn {
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 400px) {
+  .audiensec {
+    display: flex;
+    flex-direction: column;
+  }
+  .audiensec-text {
+    margin: 108px 423px 0 422px;
+  }
+  .audiensec-text__description {
+    margin: 0;
+    width: 555px;
+    height: 72px;
+    margin-top: 30px;
+  }
+  .audiensec-text__header {
+    height: 112px;
+    width: 555px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    font-size: 56px;
+    line-height: 56px;
+    margin-top: 24px;
+  }
+  .audiensec-tools {
+    display: flex;
+    flex-direction: row;
+    margin: 111px 131px 110px 130px;
+  }
+  .audiensec-tools__item-img + .audiensec-tools__item-img {
+    margin-left: 30px;
+  }
+  .audiensec-actions {
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+  }
+  .audiensec-btn + .audiensec-btn {
+    margin: auto auto auto 10px;
+  }
+  .audiensec-btn {
+    height: 48px;
+    width: 160px;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -316,6 +436,11 @@ html {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .page {
