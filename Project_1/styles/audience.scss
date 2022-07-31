@@ -51,6 +51,7 @@
   align-items: center;
   padding-top: 40px;
   padding-bottom: 50px;
+
   &__item-img + &__item-img {
     margin-top: 15px;
   }
@@ -104,6 +105,7 @@
 
     &__item-img + &__item-img {
       margin-left: 30px;
+      margin-top: 0px;
     }
   }
 

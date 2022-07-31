@@ -22,6 +22,10 @@
   display: inline-block;
 }
 
+.header .logo__description {
+  display: none;
+}
+
 .navigation {
   display: none;
 }
@@ -116,53 +120,127 @@
     margin-right: 15px;
   }
 }
-.footer {
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
+@media screen and (min-width: 400px) {
+  .downlouds {
+    margin-top: 25px;
+  }
+  .downlouds__item {
+    margin-right: 10px;
+  }
+  .about-company {
+    margin-top: 43px;
+    width: 360px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  .footer__description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #2b292d;
+    opacity: 60%;
+    margin-top: 26px;
+  }
+  .footer__navigation {
+    height: 339px;
+  }
+  .footer__line {
+    border-top: 1px solid #000;
+    opacity: 10%;
+    width: 100%;
+    margin: 0;
+  }
+  .footer__links {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .footer__navigation {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .footer__terms {
+    margin: 15px;
+    height: 22px;
+    font-size: 14px;
+  }
+  .footer__terms__item {
+    line-height: 22px;
+    color: #2b292d;
+    opacity: 60%;
+  }
+  .footer__terms__item + .footer__terms__item {
+    margin-left: 22px;
+  }
 }
-.footer__description {
-  font-size: 18px;
-  line-height: 26px;
-  color: #2b292d;
-  opacity: 60%;
-  margin-top: 26px;
+@media screen and (max-width: 321px) {
+  .footer__description {
+    display: none;
+  }
+  .footer__terms {
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+  .footer__terms__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .footer .logo {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .footer .logo__name {
+    padding-top: 20px;
+  }
+  .footer .logo__name {
+    margin: 0;
+    text-align: center;
+    color: #000;
+  }
+  .footer .logo__description {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .additionla-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .downlouds {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e3e3e3;
+    padding-top: 31px;
+    padding-bottom: 40px;
+  }
+  .downlouds__item + .downlouds__item {
+    margin-left: 15px;
+  }
+  .nav-links {
+    margin-right: 29px;
+  }
+  .nav-links__title {
+    padding-top: 30px;
+  }
+  .social-link {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 23px;
+  }
 }
-.footer__navigation {
-  height: 339px;
-}
-.footer__line {
-  border-top: 1px solid #000;
-  opacity: 10%;
-  width: 100%;
-  margin: 0;
-}
-.footer__links {
-  display: flex;
-  align-items: center;
-  height: 50px;
-  width: 1140px;
-  margin: 0 auto;
-}
-.footer__navigation {
-  display: flex;
-  width: 1140px;
-  margin: 0 auto;
-}
-.footer__terms {
-  margin: 15px;
-  height: 22px;
-  font-size: 14px;
-}
-.footer__terms__item {
-  line-height: 22px;
-  color: #2b292d;
-  opacity: 60%;
-}
-.footer__terms__item + .footer__terms__item {
-  margin-left: 22px;
-}
-
 .logo {
   display: flex;
 }
@@ -416,6 +494,7 @@
   }
   .audiensec-tools__item-img + .audiensec-tools__item-img {
     margin-left: 30px;
+    margin-top: 0px;
   }
   .audiensec-actions {
     display: flex;
@@ -434,6 +513,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f4f5f7;
+  width: 100%;
 }
 
 .order-img-div {
@@ -509,9 +590,10 @@
 
 @media screen and (min-width: 400px) {
   .order {
-    margin: 106px 229px 105px 122px;
+    padding: 106px 229px 105px 122px;
     flex-direction: row;
     justify-content: center;
+    background-color: #f4f5f7;
   }
   .order-text {
     width: 555px;
@@ -610,21 +692,6 @@ p {
 }
 .social-link a + a {
   margin-left: 15px;
-}
-
-.about-company {
-  width: 360px;
-}
-
-.downlouds {
-  margin-top: 25px;
-}
-.downlouds__item {
-  margin-right: 10px;
-}
-
-.about-company {
-  margin-top: 43px;
 }
 
 /*# sourceMappingURL=style.css.map */

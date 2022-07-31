@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f4f5f7;
+  width: 100%;
 }
 
 .order-img-div {
@@ -78,9 +80,10 @@
 
 @media screen and (min-width: 400px) {
   .order {
-    margin: 106px 229px 105px 122px;
+    padding: 106px 229px 105px 122px;
     flex-direction: row;
     justify-content: center;
+    background-color: #f4f5f7;
   }
   .order-text {
     width: 555px;
