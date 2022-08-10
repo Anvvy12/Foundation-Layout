@@ -18,7 +18,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("./img/Menu-Bar.png");
+  background-image: url("../img/menuBar.png");
   display: inline-block;
 }
 
