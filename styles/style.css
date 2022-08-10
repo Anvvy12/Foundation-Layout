@@ -63,6 +63,14 @@
 }
 
 @media screen and (min-width: 400px) {
+  .header .logo__description {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+    margin-left: 15px;
+  }
   .header {
     margin: auto;
     display: flex;
@@ -249,7 +257,7 @@
   height: 48px;
 }
 .logo__name {
-  color: #2b292d;
+  color: #000;
   line-height: 25px;
   font-size: 20px;
   font-weight: 700;
@@ -676,6 +684,11 @@ p {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 400px) {
+  .only-desctop {
+    display: none;
+  }
+}
 .top-section {
   background-color: #f3c6bd;
 }

@@ -30,6 +30,11 @@ p {
   width: 100%;
   overflow-x: hidden;
 }
+@media screen and (max-width: 400px) {
+  .only-desctop {
+    display: none;
+  }
+}
 
 .top-section {
   background-color: #f3c6bd;
