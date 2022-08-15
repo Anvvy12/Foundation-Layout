@@ -17,3 +17,7 @@ This layout only supports 320px and 1400px widths
 ### Email
 
 - youbody7@gmail.com
+
+### Web page
+
+-https://anvvy12.github.io/Foundation-Layout/.
