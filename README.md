@@ -1,6 +1,6 @@
 # Foundation
 
-Only for with 320px and 1400px
+This layout only supports 320px and 1400px widths
 
 ## GromCode Project 1
 
@@ -12,7 +12,7 @@ Only for with 320px and 1400px
 
 ## Author
 
-- Bogadan Roman
+- Bogdan Roman
 
 ### Email
 
