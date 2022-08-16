@@ -2,7 +2,7 @@
 
 This layout only supports 320px and 1400px widths
 
-## GromCode Project 1
+## Tech stack
 
 - HTML5
 - CSS3
