@@ -13,6 +13,9 @@
     width: 200px;
   }
 }
+.info-side {
+  padding-bottom: 50px;
+}
 
 .order-text {
   width: 290px;
@@ -73,7 +76,6 @@
   }
 
   &__text-like-url {
-    color: #3142c6;
     text-decoration: underline;
   }
 }
