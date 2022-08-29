@@ -12,9 +12,7 @@ $whiteColor: #fff;
   line-height: 13px;
   border-radius: 2px;
 }
-.black-text {
-  color: #000;
-}
+
 .action-button {
   color: $whiteColor;
   background-color: $blueColor;
@@ -23,6 +21,9 @@ $whiteColor: #fff;
 .info-button {
   background-color: $whiteColor;
   color: $blueColor;
+  &_black-text {
+    color: #000;
+  }
 }
 
 .header__button {

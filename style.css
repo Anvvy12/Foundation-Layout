@@ -355,10 +355,6 @@
   border-radius: 2px;
 }
 
-.black-text {
-  color: #000;
-}
-
 .action-button {
   color: #fff;
   background-color: #3040c4;
@@ -367,6 +363,9 @@
 .info-button {
   background-color: #fff;
   color: #3040c4;
+}
+.info-button_black-text {
+  color: #000;
 }
 
 .header__button {
