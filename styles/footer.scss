@@ -51,7 +51,7 @@
       margin: 15px;
       height: 22px;
       font-size: 14px;
-      &__item {
+      &_item {
         line-height: 22px;
         color: #2b292d;
         opacity: 60%;
@@ -63,6 +63,7 @@
     }
   }
 }
+
 @media screen and (max-width: 321px) {
   .footer {
     &__description {
@@ -71,7 +72,7 @@
     &__terms {
       padding-top: 30px;
       padding-left: 15px;
-      &__item {
+      &_item {
         font-weight: 400;
         font-size: 14px;
         line-height: 22px;
