@@ -10,12 +10,25 @@
     margin-top: 43px;
     width: 360px;
   }
+
+  .logo {
+    &__sub-name {
+      margin-left: 15px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #2b292d;
+    }
+  }
   .footer {
     display: flex;
     flex-direction: column;
     margin-top: auto;
 
     &__description {
+      display: block;
       font-size: 18px;
       line-height: 26px;
       color: #2b292d;
@@ -73,11 +86,26 @@
       padding-top: 30px;
       padding-left: 15px;
       &_item {
+        font-family: 'Work Sans';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 22px;
         color: rgba(43, 41, 45, 0.6);
       }
+      &_item + &_item {
+        padding-left: 15px;
+      }
+    }
+  }
+  .logo {
+    &__sub-name {
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #2b292d;
     }
   }
 
@@ -87,6 +115,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+
     &__name {
       padding-top: 20px;
     }
@@ -94,12 +123,6 @@
       margin: 0;
       text-align: center;
       color: #000;
-    }
-    &__description {
-      display: block;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 26px;
     }
   }
 

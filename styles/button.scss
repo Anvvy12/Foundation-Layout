@@ -2,10 +2,10 @@ $blueColor: #3040c4;
 $whiteColor: #fff;
 
 .btn {
-  width: 100%;
+  width: 290px;
+  height: 48px;
   font-weight: 700;
   height: 48px;
-  // margin-top: 15px;
   text-align: center;
   border: none;
   font-size: 18px;
@@ -24,6 +24,10 @@ $whiteColor: #fff;
   &_black-text {
     color: #000;
   }
+}
+
+.btn + .btn {
+  margin-top: 15px;
 }
 
 .header__button {
@@ -47,5 +51,8 @@ $whiteColor: #fff;
     margin-left: 10px;
     width: 160px;
     height: 50px;
+  }
+  .btn + .btn {
+    margin-top: 0;
   }
 }
