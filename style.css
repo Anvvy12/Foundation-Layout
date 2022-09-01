@@ -191,7 +191,7 @@
     color: #2b292d;
     opacity: 60%;
   }
-  .footer__terms__item + .footer__terms__item {
+  .footer__terms_item + .footer__terms_item {
     margin-left: 22px;
   }
 }
@@ -437,7 +437,6 @@
   align-items: center;
 }
 .audiensec-text__paragraph {
-  margin-top: 50px;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
